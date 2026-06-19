@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "npx --yes live-server",
     "build:css": "tailwindcss -i src/input.css -o dist/tailwind.css --minify",
     "watch:css": "tailwindcss -i src/input.css -o dist/tailwind.css --watch"
   },
