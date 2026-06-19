@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <link rel="icon" type="image/png" href="logo/favicon.png"/>
+    <title>Our Services | Force Group SA &amp; Force Aid</title>
+<link href="dist/tailwind.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500&amp;family=Hanken+Grotesk:wght@600;700&amp;family=JetBrains+Mono:wght@500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            display: inline-block;
+            line-height: 1;
+            text-transform: none;
+            letter-spacing: normal;
+            word-wrap: normal;
+            white-space: nowrap;
+            direction: ltr;
+        }
+        .service-card-hover {
+            transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+        }
+        .service-card-hover:hover {
+            transform: translateY(-8px);
+            box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.08);
+        }
+        
+    
+        .glass-nav {
+            -webkit-backdrop-filter: blur(8px);
+            backdrop-filter: blur(8px);
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+    </style>
+</head>
+<body class="bg-surface text-on-surface font-body-md selection:bg-secondary-container/50">
+<!-- TopNavBar -->
+<header class="bg-surface-container-lowest sticky top-0 z-50 border-b border-outline-variant shadow-sm transition-all duration-300 w-full">
+<div class="w-full px-4 md:px-8 flex justify-between items-center h-16">
+<div class="flex items-center gap-3">
+<img alt="Force Group SA Logo" class="h-10 w-auto object-contain" src="logo.png"/>
+<span class="hidden lg:block font-headline-md text-headline-md font-bold text-on-primary-fixed">Force Group SA &amp; Force Aid</span>
+</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="font-body-md text-on-surface-variant hover:text-primary transition-colors hover:opacity-80 active:scale-95 transform transition-transform" href="index.html">Home</a>
+<a class="font-body-md text-on-surface-variant hover:text-primary transition-colors hover:opacity-80 active:scale-95 transform transition-transform" href="4_About_Us.html">About Us</a>
+<a class="font-body-md text-primary font-semibold border-b-2 border-primary pb-1 active:scale-95 transform transition-transform" href="3_Our_Services.html">Our Services</a>
+<a class="font-body-md text-on-surface-variant hover:text-primary transition-colors hover:opacity-80 active:scale-95 transform transition-transform" href="2_Our_Projects.html">Our Projects</a>
+<a class="font-body-md text-on-surface-variant hover:text-primary transition-colors hover:opacity-80 active:scale-95 transform transition-transform" href="6_Force_Aid_Inc.html">Force Aid</a>
+</nav>
+<div class="flex items-center gap-4">
+<a href="5_Contact_Us.html" class="font-body-md text-on-surface-variant hover:text-primary px-4 py-2 hover:opacity-80 transition-all duration-300">Contact Us</a>
+<a href="7_Donate.html" title="Donate" class="bg-secondary text-on-secondary font-body-md px-5 py-2 rounded-lg hover:bg-secondary/90 transition-all duration-300 active:scale-95 transform shadow-sm">Donate</a>
+<button class="md:hidden flex items-center text-on-primary-fixed">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</div>
+</header>
+<!-- Hero Section -->
+<section class="relative pt-32 pb-32 overflow-hidden bg-primary text-white">
+<div class="absolute inset-0 bg-gradient-to-r from-on-primary-fixed via-primary/80 to-transparent opacity-60 z-0"></div>
+<div class="w-full px-4 md:px-8 relative z-10">
+<div class="max-w-3xl">
+<span class="font-label-caps text-label-caps uppercase tracking-widest text-secondary-fixed mb-4 block">EXCELLENCE IN ACTION</span>
+<h1 class="font-headline-xl text-headline-xl text-white mb-6">Strategic Solutions for a Sustainable Future</h1>
+<p class="font-body-lg text-body-lg text-white/80 mb-10">Force Group SA delivers high-impact strategic development and operational excellence. We partner with organizations to build capability, drive innovation, and ensure long-term resilience in South Australia.</p>
+<div class="flex flex-wrap gap-4">
+<a class="px-8 py-4 bg-secondary text-on-secondary font-label-caps rounded hover:opacity-90 transition-all flex items-center justify-center" href="#our-services">EXPLORE SERVICES</a>
+<a class="px-8 py-4 border border-white/30 text-white font-label-caps rounded hover:bg-white/10 transition-all flex items-center justify-center" href="#">DOWNLOAD CAPABILITY STATEMENT</a>
+</div>
+</div>
+</div>
+</section>
+<!-- Our Services: Linked Pages Section -->
+<section class="py-section-gap bg-surface-bright" id="our-services">
+<div class="max-w-[1280px] mx-auto px-6 md:px-margin-desktop">
+<div class="mb-16">
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-widest mb-4 block">What We Offer</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface mb-4">Our Services</h2>
+<div class="w-24 h-1.5 bg-secondary rounded-full"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<a href="strategic-development.html" class="service-card-hover group bg-surface-container-lowest p-stack-lg border border-outline-variant flex flex-col h-full rounded-xl">
+<div class="mb-6 w-14 h-14 bg-primary-container text-on-primary-container flex items-center justify-center rounded-xl">
+<span class="material-symbols-outlined text-3xl">strategy</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-3">Strategic Development</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-8 flex-grow">High-level advisory and strategy formulation to navigate complex market dynamics and align vision with execution.</p>
+<span class="flex items-center gap-2 text-primary font-label-caps text-label-caps font-bold uppercase tracking-wider">Learn More <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_forward</span></span>
+</a>
+<a href="operational-improvement.html" class="service-card-hover group bg-surface-container-lowest p-stack-lg border border-outline-variant flex flex-col h-full rounded-xl">
+<div class="mb-6 w-14 h-14 bg-primary-container text-on-primary-container flex items-center justify-center rounded-xl">
+<span class="material-symbols-outlined text-3xl">tune</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-3">Operational Improvement</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-8 flex-grow">Streamlining workflows and optimising resources, using lean methodologies to enhance organisational throughput.</p>
+<span class="flex items-center gap-2 text-primary font-label-caps text-label-caps font-bold uppercase tracking-wider">Learn More <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_forward</span></span>
+</a>
+<a href="capability-building.html" class="service-card-hover group bg-surface-container-lowest p-stack-lg border border-outline-variant flex flex-col h-full rounded-xl">
+<div class="mb-6 w-14 h-14 bg-primary-container text-on-primary-container flex items-center justify-center rounded-xl">
+<span class="material-symbols-outlined text-3xl">groups</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-3">Capability Building</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-8 flex-grow">Empowering your workforce through targeted skill development and mentorship for self-sustaining internal growth.</p>
+<span class="flex items-center gap-2 text-primary font-label-caps text-label-caps font-bold uppercase tracking-wider">Learn More <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_forward</span></span>
+</a>
+</div>
+</div>
+</section>
+<!-- Services Grid Section -->
+<section class="py-section-gap bg-surface-container-low" id="services-grid">
+<div class="max-w-[1280px] mx-auto px-6 md:px-margin-desktop">
+<div class="mb-16">
+<h2 class="font-headline-lg text-headline-lg text-on-surface mb-4">Our Core Expertise</h2>
+<div class="w-24 h-1.5 bg-secondary rounded-full"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter">
+<!-- Service Card 1 -->
+<div class="service-card-hover bg-surface-container-lowest p-stack-lg border border-outline-variant flex flex-col h-full rounded-xl">
+<div class="mb-6 w-14 h-14 bg-primary-container text-on-primary-container flex items-center justify-center rounded-xl">
+<span class="material-symbols-outlined text-3xl" data-icon="strategy">strategy</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-4">Strategic Development Solutions</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-8 flex-grow">
+                        We provide high-level advisory and strategy formulation to navigate complex market dynamics and legislative landscapes. Our approach ensures alignment between vision and execution.
+                    </p>
+<button class="group flex items-center gap-2 text-primary font-label-caps text-label-caps font-bold uppercase tracking-wider">
+                        ENQUIRE NOW
+                        <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform" data-icon="arrow_forward">arrow_forward</span>
+</button>
+</div>
+<!-- Service Card 2 -->
+<div class="service-card-hover bg-surface-container-lowest p-stack-lg border border-outline-variant flex flex-col h-full rounded-xl">
+<div class="mb-6 w-14 h-14 bg-primary-container text-on-primary-container flex items-center justify-center rounded-xl">
+<span class="material-symbols-outlined text-3xl" data-icon="precision_manufacturing">precision_manufacturing</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-4">Operational Improvement</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-8 flex-grow">
+                        Streamlining workflows and optimizing resources to drive efficiency. We analyze systemic bottlenecks and implement lean methodologies to enhance organizational throughput.
+                    </p>
+<button class="group flex items-center gap-2 text-primary font-label-caps text-label-caps font-bold uppercase tracking-wider">
+                        ENQUIRE NOW
+                        <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform" data-icon="arrow_forward">arrow_forward</span>
+</button>
+</div>
+<!-- Service Card 3 -->
+<div class="service-card-hover bg-surface-container-lowest p-stack-lg border border-outline-variant flex flex-col h-full rounded-xl">
+<div class="mb-6 w-14 h-14 bg-primary-container text-on-primary-container flex items-center justify-center rounded-xl">
+<span class="material-symbols-outlined text-3xl" data-icon="rocket_launch">rocket_launch</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-4">Project Delivery Support</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-8 flex-grow">
+                        From inception to completion, we manage risks and timelines for large-scale projects. Our dedicated team ensures quality benchmarks are met without compromise.
+                    </p>
+<button class="group flex items-center gap-2 text-primary font-label-caps text-label-caps font-bold uppercase tracking-wider">
+                        ENQUIRE NOW
+                        <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform" data-icon="arrow_forward">arrow_forward</span>
+</button>
+</div>
+<!-- Service Card 4 -->
+<div class="service-card-hover bg-surface-container-lowest p-stack-lg border border-outline-variant flex flex-col h-full rounded-xl">
+<div class="mb-6 w-14 h-14 bg-primary-container text-on-primary-container flex items-center justify-center rounded-xl">
+<span class="material-symbols-outlined text-3xl" data-icon="groups">groups</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-4">Capability Building</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-8 flex-grow">
+                        Empowering your workforce through targeted skill development and mentorship programs. We focus on creating self-sustaining growth within your internal teams.
+                    </p>
+<button class="group flex items-center gap-2 text-primary font-label-caps text-label-caps font-bold uppercase tracking-wider">
+                        ENQUIRE NOW
+                        <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform" data-icon="arrow_forward">arrow_forward</span>
+</button>
+</div>
+<!-- Service Card 5 -->
+<div class="service-card-hover bg-surface-container-lowest p-stack-lg border border-outline-variant flex flex-col h-full rounded-xl">
+<div class="mb-6 w-14 h-14 bg-primary-container text-on-primary-container flex items-center justify-center rounded-xl">
+<span class="material-symbols-outlined text-3xl" data-icon="timeline">timeline</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-4">Long-term Planning &amp; Advisory</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-8 flex-grow">
+                        Securing the future through robust succession planning and generational wealth/impact strategies. We help you build a legacy that lasts far beyond the current cycle.
+                    </p>
+<button class="group flex items-center gap-2 text-primary font-label-caps text-label-caps font-bold uppercase tracking-wider">
+                        ENQUIRE NOW
+                        <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform" data-icon="arrow_forward">arrow_forward</span>
+</button>
+</div>
+<!-- Service Card 6: Highlighted -->
+<div class="service-card-hover bg-surface-container-lowest p-stack-lg border border-outline-variant flex flex-col h-full rounded-xl border-t-4 border-t-secondary">
+<div class="mb-6 w-14 h-14 bg-secondary-container text-on-secondary-container flex items-center justify-center rounded-xl">
+<span class="material-symbols-outlined text-3xl" data-icon="volunteer_activism" data-weight="fill">volunteer_activism</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-4">Impact &amp; Philanthropy</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-8 flex-grow">
+                        Facilitating community impact through Force Aid. We help corporate entities design and implement meaningful social responsibility programs that make a real difference.
+                    </p>
+<button class="group flex items-center gap-2 text-secondary font-label-caps text-label-caps font-bold uppercase tracking-wider">
+                        GET INVOLVED
+                        <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform" data-icon="arrow_forward">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+</section>
+<!-- Detailed Insight / Bento Grid -->
+<section class="py-section-gap bg-surface-container-lowest overflow-hidden">
+<div class="max-w-[1280px] mx-auto px-6 md:px-margin-desktop">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter">
+<!-- Large Image Block -->
+<div class="lg:col-span-8 relative min-h-[500px] bg-on-primary-fixed overflow-hidden rounded-xl">
+<img alt="Modern Office" class="absolute inset-0 w-full h-full object-cover opacity-50" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBQWv23o1AVJX2qbq7M4f-XN2dV8Cczvnt5DNRbX9oTJb-dwxTszsFsxRRNP0u0IeD1J14Rt8F_vNr0HQUBj_HyFLMS1tcJgiwzIo5BRApBFHFpwxuN6c86Y-QXebjIJMblnwArX9-m2BSJBbWTXLSrcaSTaj13j3122YXfo8vJk0IKN9ktHiR8j-BIXcNzRNYvu16-ZFwddohczTLoIHY3oiRzVg8DqiFMElv2GPG339qbT_ehBPA0rvu3IWZYtnZGDK9nYO-Si0EL"/>
+<div class="absolute bottom-0 left-0 p-stack-lg text-on-primary max-w-xl">
+<h4 class="font-headline-lg text-headline-lg mb-4">Our Commitment to South Australia</h4>
+<p class="font-body-md text-body-md text-on-primary/90">Force Group SA is more than an advisory firm. We are a locally-owned partner dedicated to the long-term prosperity of our state through rigorous business ethics and community-focused initiatives.</p>
+</div>
+</div>
+<!-- Stats/Brief Info Blocks -->
+<div class="lg:col-span-4 flex flex-col gap-gutter">
+<div class="bg-surface-container-low p-stack-lg flex-grow flex flex-col justify-center border-l-4 border-primary rounded-r-xl">
+<span class="font-headline-xl text-headline-xl text-primary mb-2">15+</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-widest">Years of Regional Leadership</span>
+</div>
+<div class="bg-primary text-on-primary p-stack-lg flex-grow flex flex-col justify-center rounded-xl">
+<span class="font-headline-xl text-headline-xl text-primary-fixed mb-2">120+</span>
+<span class="font-label-caps text-label-caps text-on-primary/70 uppercase tracking-widest">Successful Projects Delivered</span>
+</div>
+<div class="bg-surface-container-low p-stack-lg flex-grow flex flex-col justify-center border-l-4 border-secondary rounded-r-xl">
+<span class="font-headline-xl text-headline-xl text-secondary mb-2">$5M+</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-widest">Community Impact via Force Aid</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Collaborative Process -->
+<section class="py-section-gap bg-surface-bright">
+<div class="max-w-[1280px] mx-auto px-6 md:px-margin-desktop text-center">
+<h2 class="font-headline-lg text-headline-lg text-on-surface mb-16">The Force Methodology</h2>
+<div class="flex flex-col md:flex-row justify-between items-start gap-12 relative">
+<!-- Connector Line (Desktop Only) -->
+<div class="hidden md:block absolute top-10 left-0 w-full h-[2px] bg-outline-variant/30 z-0"></div>
+<!-- Step 1 -->
+<div class="relative z-10 flex flex-col items-center md:w-1/4">
+<div class="w-20 h-20 bg-surface-container-lowest rounded-full flex items-center justify-center border-4 border-primary mb-6 shadow-sm">
+<span class="material-symbols-outlined text-primary text-3xl" data-icon="search">search</span>
+</div>
+<h4 class="font-headline-md text-headline-md text-on-surface mb-2">Discovery</h4>
+<p class="font-body-md text-body-md text-on-surface-variant px-4">Rigorous analysis of current state and future ambitions.</p>
+</div>
+<!-- Step 2 -->
+<div class="relative z-10 flex flex-col items-center md:w-1/4">
+<div class="w-20 h-20 bg-surface-container-lowest rounded-full flex items-center justify-center border-4 border-secondary mb-6 shadow-sm">
+<span class="material-symbols-outlined text-secondary text-3xl" data-icon="architecture">architecture</span>
+</div>
+<h4 class="font-headline-md text-headline-md text-on-surface mb-2">Design</h4>
+<p class="font-body-md text-body-md text-on-surface-variant px-4">Tailoring bespoke solutions with precision and foresight.</p>
+</div>
+<!-- Step 3 -->
+<div class="relative z-10 flex flex-col items-center md:w-1/4">
+<div class="w-20 h-20 bg-surface-container-lowest rounded-full flex items-center justify-center border-4 border-primary mb-6 shadow-sm">
+<span class="material-symbols-outlined text-primary text-3xl" data-icon="bolt">bolt</span>
+</div>
+<h4 class="font-headline-md text-headline-md text-on-surface mb-2">Execution</h4>
+<p class="font-body-md text-body-md text-on-surface-variant px-4">Deploying resources and managing delivery milestones.</p>
+</div>
+<!-- Step 4 -->
+<div class="relative z-10 flex flex-col items-center md:w-1/4">
+<div class="w-20 h-20 bg-surface-container-lowest rounded-full flex items-center justify-center border-4 border-secondary mb-6 shadow-sm">
+<span class="material-symbols-outlined text-secondary text-3xl" data-icon="autonomy">autopay</span>
+</div>
+<h4 class="font-headline-md text-headline-md text-on-surface mb-2">Stability</h4>
+<p class="font-body-md text-body-md text-on-surface-variant px-4">Ensuring long-term operational resilience and success.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Section -->
+<section class="py-section-gap bg-on-primary-fixed text-on-primary text-center relative overflow-hidden">
+<div class="max-w-2xl mx-auto px-6 relative z-10">
+<h2 class="font-headline-lg text-headline-lg mb-8">Ready to transform your vision into progress?</h2>
+<p class="font-body-lg text-body-lg mb-10 text-on-primary/80">Connect with our advisory team today to discuss how Force Group SA can support your strategic objectives.</p>
+<div class="flex flex-col sm:flex-row justify-center gap-4">
+<button class="bg-secondary text-on-secondary px-8 py-4 font-label-caps text-label-caps font-bold uppercase tracking-wider rounded-lg hover:opacity-90 transition-all shadow-lg">SCHEDULE A CONSULTATION</button>
+<button class="border-2 border-primary-container/30 text-on-primary px-8 py-4 font-label-caps text-label-caps font-bold uppercase tracking-wider rounded-lg hover:bg-white/5 transition-all">CONTACT US</a>
+</div>
+</div>
+</section>
+
+<!-- Footer -->
+<footer class="full-width py-xl bg-white border-t border-outline-variant">
+<div class="max-w-[1280px] mx-auto px-6 md:px-margin-desktop grid grid-cols-1 md:grid-cols-4 gap-gutter text-black">
+<!-- Branding & About -->
+<div class="col-span-1 md:col-span-1">
+<img alt="Force Group Logo" class="h-40 w-auto object-contain mb-6" src="logo.png"/>
+<p class="font-body-md text-black mb-6">Strategic development and community transformation, anchored in South Australia.</p>
+</div>
+<!-- Strategy Column -->
+<div>
+<h5 class="text-black font-bold mb-6 font-label-caps text-label-caps uppercase tracking-wider">Strategy</h5>
+<ul class="space-y-4">
+<li><a class="font-body-sm text-black hover:text-primary transition-colors" href="strategic-development.html">Strategic Development</a></li>
+<li><a class="font-body-sm text-black hover:text-primary transition-colors" href="operational-improvement.html">Operational Improvement</a></li>
+<li><a class="font-body-sm text-black hover:text-primary transition-colors" href="capability-building.html">Capability Building</a></li>
+</ul>
+</div>
+<!-- Impact Column -->
+<div>
+<h5 class="text-black font-bold mb-6 font-label-caps text-label-caps uppercase tracking-wider">Impact</h5>
+<ul class="space-y-4">
+<li><a class="font-body-sm text-black hover:text-primary transition-colors" href="community-impact.html">Community Impact</a></li>
+<li><a class="font-body-sm text-black hover:text-primary transition-colors" href="philanthropy.html">Philanthropy</a></li>
+<li><a class="font-body-sm text-black hover:text-primary transition-colors" href="strategic-partnerships.html">Strategic Partnerships</a></li>
+</ul>
+</div>
+<!-- Company Column -->
+<div>
+<h5 class="text-black font-bold mb-6 font-label-caps text-label-caps uppercase tracking-wider">Company</h5>
+<ul class="space-y-4 mb-8">
+<li><a class="font-body-sm text-black hover:text-primary transition-colors" href="privacy-policy.html">Privacy Policy</a></li>
+<li><a class="font-body-sm text-black hover:text-primary transition-colors" href="terms-of-service.html">Terms of Service</a></li>
+</ul>
+<div class="text-black font-label-caps text-[11px]">
+    © 2024 Force Group SA &amp; Force Aid Inc. All rights reserved.
+</div>
+</div>
+</div>
+</footer>
+
+<script>
+        // Micro-interactions for smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Add scroll class to nav
+        window.addEventListener('scroll', () => {
+            const nav = document.querySelector('nav');
+            if (window.scrollY > 50) {
+                nav.classList.add('glass-nav');
+                nav.classList.add('bg-opacity-95');
+            } else {
+                nav.classList.remove('glass-nav');
+                nav.classList.remove('bg-opacity-95');
+            }
+        });
+    </script>
+
+    <script>
+        // Simple scroll interaction for Header
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('header');
+            if (!header) return;
+            if (window.scrollY > 50) {
+                header.classList.add('glass-nav');
+                header.classList.remove('bg-surface-container-lowest');
+                header.classList.add('shadow-md');
+            } else {
+                header.classList.remove('glass-nav');
+                header.classList.add('bg-surface-container-lowest');
+                header.classList.remove('shadow-md');
+            }
+        });
+    </script>
+</body></html>

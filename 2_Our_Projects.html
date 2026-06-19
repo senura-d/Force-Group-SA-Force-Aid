@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <link rel="icon" type="image/png" href="logo/favicon.png"/>
+    <title>Our Projects | Force Group SA &amp; Force Aid</title>
+<link href="dist/tailwind.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500&amp;family=Hanken+Grotesk:wght@600;700&amp;family=JetBrains+Mono:wght@500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind Configuration using Design System Tokens -->
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            vertical-align: middle;
+        }
+        .project-card-hover {
+            transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .project-card-hover:hover {
+            transform: translateY(-8px);
+            box-shadow: 0px 20px 40px rgba(33, 105, 99, 0.08);
+        }
+    
+        .glass-nav {
+            -webkit-backdrop-filter: blur(8px);
+            backdrop-filter: blur(8px);
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body-md selection:bg-secondary-container selection:text-on-secondary-container">
+<!-- TopNavBar -->
+<header class="bg-surface-container-lowest sticky top-0 z-50 border-b border-outline-variant shadow-sm transition-all duration-300 w-full">
+<div class="w-full px-4 md:px-8 flex justify-between items-center h-16">
+<div class="flex items-center gap-3">
+<img alt="Force Group SA Logo" class="h-10 w-auto object-contain" src="logo.png"/>
+<span class="hidden lg:block font-headline-md text-headline-md font-bold text-on-primary-fixed">Force Group SA &amp; Force Aid</span>
+</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="font-body-md text-on-surface-variant hover:text-primary transition-colors hover:opacity-80 active:scale-95 transform transition-transform" href="index.html">Home</a>
+<a class="font-body-md text-on-surface-variant hover:text-primary transition-colors hover:opacity-80 active:scale-95 transform transition-transform" href="4_About_Us.html">About Us</a>
+<a class="font-body-md text-on-surface-variant hover:text-primary transition-colors hover:opacity-80 active:scale-95 transform transition-transform" href="3_Our_Services.html">Our Services</a>
+<a class="font-body-md text-primary font-semibold border-b-2 border-primary pb-1 active:scale-95 transform transition-transform" href="2_Our_Projects.html">Our Projects</a>
+<a class="font-body-md text-on-surface-variant hover:text-primary transition-colors hover:opacity-80 active:scale-95 transform transition-transform" href="6_Force_Aid_Inc.html">Force Aid</a>
+</nav>
+<div class="flex items-center gap-4">
+<a href="5_Contact_Us.html" class="font-body-md text-on-surface-variant hover:text-primary px-4 py-2 hover:opacity-80 transition-all duration-300">Contact Us</a>
+<a href="7_Donate.html" title="Donate" class="bg-secondary text-on-secondary font-body-md px-5 py-2 rounded-lg hover:bg-secondary/90 transition-all duration-300 active:scale-95 transform shadow-sm">Donate</a>
+<button class="md:hidden flex items-center text-on-primary-fixed">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</div>
+</header>
+<main>
+<!-- Page Header -->
+<section class="relative pt-32 pb-24 bg-primary text-white overflow-hidden">
+<div class="absolute inset-0 bg-gradient-to-r from-on-primary-fixed via-primary/80 to-transparent opacity-60 z-0"></div>
+<div class="max-w-[1280px] mx-auto px-6 lg:px-xl relative z-10">
+<span class="inline-block px-3 py-1 rounded-full bg-white/10 text-white font-label-caps text-label-caps uppercase tracking-wider mb-6">Project Portfolio</span>
+<h1 class="font-headline-xl text-headline-lg-mobile md:text-headline-xl text-white mb-6">Strategic Milestones &amp; <br/><span class="text-secondary-fixed">Community Impact.</span></h1>
+<p class="font-body-lg text-body-lg text-white/80 max-w-3xl mb-0">From boardroom strategies that reshape industry standards to localized initiatives that empower South Australian families, our projects reflect our dual commitment to excellence and empathy.</p>
+</div>
+</section>
+<!-- Corporate Projects Section -->
+<section class="py-xl">
+<div class="max-w-[1280px] mx-auto px-6 lg:px-xl">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
+<div class="max-w-2xl">
+<h2 class="font-headline-lg text-on-surface mb-4">Corporate Strategic Development</h2>
+<p class="font-body-md text-on-surface-variant leading-relaxed">Driving operational efficiency and sustainable growth for leading SA enterprises through rigorous analysis and bold leadership.</p>
+</div>
+<div class="flex gap-2">
+<button class="p-2 border border-outline rounded-lg hover:bg-surface-container transition-colors text-on-surface">
+<span class="material-symbols-outlined">chevron_left</span>
+</button>
+<button class="p-2 border border-outline rounded-lg hover:bg-surface-container transition-colors text-on-surface">
+<span class="material-symbols-outlined">chevron_right</span>
+</button>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter">
+<!-- Project Card 1 -->
+<div class="bg-surface-container-lowest rounded-xl project-card-hover border border-outline-variant flex flex-col overflow-hidden">
+<div class="aspect-video w-full overflow-hidden bg-surface-container">
+<img alt="Infrastructure Expansion" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB2QtM23QrB7MMAdPlfY3Bv8imT0_8RsoI4Ic6pshv4IBvos3rOZa-cPk77v6f4-jfJlxI7zI3QJH6yH24h3deDJ8BQ0esFsSMwRD54ER9UVnVTnNiDRRc_X_3D83241lMZM1SwOtox3Mc4iVPdRjk2l0jmdo33H9W7JMXlRGZl4nMmBVOdFiy8-UdnjyZOVJu-jejnryFapIVQngOAWjlskB7weKeqsmhH0iblgxnh-RMyeT6a-6CKmDXb53FSvmCboZGZWBSxofQ8"/>
+</div>
+<div class="p-8 flex-1 flex flex-col">
+<div class="flex justify-between items-start mb-4">
+<span class="text-label-caps text-on-surface-variant uppercase">Q3 2023 - Ongoing</span>
+<span class="bg-primary-fixed text-on-primary-fixed px-3 py-1 rounded-full text-label-caps">Operational</span>
+</div>
+<h3 class="font-headline-md text-on-surface mb-3">State-Wide Logistics Optimization</h3>
+<p class="font-body-md text-on-surface-variant mb-6 flex-1">Implementing a multi-tiered strategic framework to reduce operational overhead by 22% across primary distribution networks in South Australia.</p>
+<a class="inline-flex items-center gap-2 text-primary font-body-md hover:text-on-primary-container transition-colors group" href="#">
+                                View Case Study 
+                                <span class="material-symbols-outlined text-[18px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Project Card 2 -->
+<div class="bg-surface-container-lowest rounded-xl project-card-hover border border-outline-variant flex flex-col overflow-hidden">
+<div class="aspect-video w-full overflow-hidden bg-surface-container">
+<img alt="Corporate Restructuring" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCDEP-nAaziWLs5Co14rQd4RSqi4uTcbNBYU8ZIWuPQKHszEh5ZJi2oILIQbThAQZJuukcbhLMqVxdoqWIKd944daTOPP7x6gtsWKzFPV-gVlzT4eZNvIjyjgTOry-LIz28826fiWZEByaCzSGuoowrBJnU0kAN3PqKi5XXOU8SVMHD-6v8BssbtYLNdMS8B1UvFeCztGBKzmp49gPr94M-T63LEJwCjrPNsTQAcvY4RZRKtEbJkUmOzFmykoAZvELO2Js8B8pvzWwg"/>
+</div>
+<div class="p-8 flex-1 flex flex-col">
+<div class="flex justify-between items-start mb-4">
+<span class="text-label-caps text-on-surface-variant uppercase">Jan 2024</span>
+<span class="bg-secondary-fixed text-on-secondary-fixed px-3 py-1 rounded-full text-label-caps">Completed</span>
+</div>
+<h3 class="font-headline-md text-on-surface mb-3">Enterprise Governance Refinement</h3>
+<p class="font-body-md text-on-surface-variant mb-6 flex-1">Modernizing governance structures for a top-tier financial services group, ensuring compliance and agile decision-making at the board level.</p>
+<a class="inline-flex items-center gap-2 text-primary font-body-md hover:text-on-primary-container transition-colors group" href="#">
+                                View Case Study 
+                                <span class="material-symbols-outlined text-[18px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Project Card 3 -->
+<div class="bg-surface-container-lowest rounded-xl project-card-hover border border-outline-variant flex flex-col overflow-hidden">
+<div class="aspect-video w-full overflow-hidden bg-surface-container">
+<img alt="Talent Acquisition Strategy" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDm_1TP8oXsMcXpTfPEbeAVZR0ySQ2PdiyAN35_rRX4bAFIh8_hKBU4tJIYE58OKNTY1WtpEuYH5ChixjQCuu7U0ibB3NGaFH-aApE5WWBt2S1d7N6C-fDVqBPCZvdYP_JU_cwzmqAEdg6Pf7IzVLwu-U3_0OfidNUtXwus4DWnVz-hw5OjRX0dZ5Q0yRdy3QjgqMf2Q-Szob7w76ezqwj5OaHrRQ_nEsDxhD67o0oTcudfcC4n5n6hR162_zZN4PojMWIrgz_ATzPL"/>
+</div>
+<div class="p-8 flex-1 flex flex-col">
+<div class="flex justify-between items-start mb-4">
+<span class="text-label-caps text-on-surface-variant uppercase">Ongoing</span>
+<span class="bg-tertiary-fixed text-on-tertiary-fixed px-3 py-1 rounded-full text-label-caps">Development</span>
+</div>
+<h3 class="font-headline-md text-on-surface mb-3">Leadership Talent Pipeline</h3>
+<p class="font-body-md text-on-surface-variant mb-6 flex-1">Developing a comprehensive leadership identification and training program to secure the future of the local manufacturing sector.</p>
+<a class="inline-flex items-center gap-2 text-primary font-body-md hover:text-on-primary-container transition-colors group" href="#">
+                                View Case Study 
+                                <span class="material-symbols-outlined text-[18px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Social Impact Projects Section -->
+<section class="py-xl bg-surface-container-low">
+<div class="max-w-[1280px] mx-auto px-6 lg:px-xl">
+<div class="max-w-2xl mb-16">
+<div class="flex items-center gap-3 mb-4">
+<span class="w-12 h-1 bg-secondary"></span>
+<h2 class="font-headline-lg text-on-surface">Social Impact &amp; Community</h2>
+</div>
+<p class="font-body-md text-on-surface-variant leading-relaxed">Under the banner of Force Aid, we invest in the human capital of our communities through targeted philanthropy and hands-on support programs.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-gutter">
+<!-- Impact Card 1 -->
+<div class="bg-surface-container-lowest rounded-xl project-card-hover border-t-4 border-secondary shadow-sm overflow-hidden flex flex-col md:flex-row">
+<div class="md:w-2/5 min-h-[240px] overflow-hidden">
+<img alt="Community Hub Support" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBD-J0uYSUaFxqzqrSEPoY_Mqigo-4_EgAH0yK4CQ4P3WWtJrThpL7hfV9DKz06yWnCCPbRdi0nLOK0Hq7-VPGi5JqdW7U3kGyseUDCQqJCW0dj3HnDIK9rFGbkOR7iUtrR0G-NF8PKbZGiRu-Ud0spof2THQREMGESXwepQzQ1Jter3epVF4uCrvOBuQTlT5thafPzwDBojfmoGukKNWXzi8yw521HyNo91igEzHReA0PlOP70PXcRlvuZOCItUUvRIFfMQwkfrRto"/>
+</div>
+<div class="p-8 md:w-3/5 flex flex-col justify-center">
+<span class="text-label-caps text-secondary uppercase mb-2">Philanthropy</span>
+<h3 class="font-headline-md text-on-surface mb-4">The Regional Reach Initiative</h3>
+<p class="font-body-md text-on-surface-variant mb-6">Bridging the gap for rural families by providing essential mental health resources and financial literacy workshops in remote SA districts.</p>
+<div class="mt-auto pt-6 border-t border-outline-variant flex items-center justify-between">
+<div class="text-sm font-medium text-on-surface">1,200+ Lives Impacted</div>
+<button class="text-secondary hover:underline font-body-sm font-semibold">Learn More</button>
+</div>
+</div>
+</div>
+<!-- Impact Card 2 -->
+<div class="bg-surface-container-lowest rounded-xl project-card-hover border-t-4 border-secondary shadow-sm overflow-hidden flex flex-col md:flex-row">
+<div class="md:w-2/5 min-h-[240px] overflow-hidden">
+<img alt="Education Project" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDKvWrZxfYVEPTh9sjJsxWGp9clvItp8FbS1msUEW70A8cDJPxxtv-18jSazwWLqrzRnRXGwL5q14_DE3PgntOz4mVyWHpmTlBoIeYf9t9dqkaAM6THt2blOOCzl7e-HBCiyMc_VYvGvGLQvU0yHg0FatyxBgaXeYSLqYdTJiQW-4m7r9VBIogZqV4_Bek4b3WCgc3PmILciGM5hIbfgybn5SuzH_n-spLEkB4tso7smM2ayHwBb9klOfA_y9_Osyd5WD8_YetsN2hK"/>
+</div>
+<div class="p-8 md:w-3/5 flex flex-col justify-center">
+<span class="text-label-caps text-secondary uppercase mb-2">Youth Development</span>
+<h3 class="font-headline-md text-on-surface mb-4">Future Leaders Scholarship</h3>
+<p class="font-body-md text-on-surface-variant mb-6">Providing full-ride university scholarships and professional mentorship for disadvantaged high-achievers from Northern Adelaide.</p>
+<div class="mt-auto pt-6 border-t border-outline-variant flex items-center justify-between">
+<div class="text-sm font-medium text-on-surface">15 Annual Scholars</div>
+<button class="text-secondary hover:underline font-body-sm font-semibold">Learn More</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Dynamic Growth / Call to Action -->
+<section class="py-xl relative overflow-hidden bg-primary text-on-primary">
+<div class="absolute inset-0 opacity-10">
+<div class="absolute top-0 left-0 w-full h-full bg-[radial-gradient(circle_at_30%_50%,#ffdaab_0%,transparent_50%)]"></div>
+</div>
+<div class="max-w-[1280px] mx-auto px-6 lg:px-xl relative z-10">
+<div class="flex flex-col items-center text-center max-w-4xl mx-auto">
+<h2 class="font-headline-xl text-headline-lg-mobile md:text-headline-xl mb-8 text-on-primary">Ready to initiate the next <br/><span class="text-secondary-container">strategic milestone?</span></h2>
+<p class="font-body-lg mb-12 text-on-primary opacity-90">Whether you are looking for corporate strategic advisory or want to partner on a community initiative, we are ready to build the future of South Australia together.</p>
+<div class="flex flex-col sm:flex-row gap-6 w-full sm:w-auto">
+<button class="px-10 py-4 bg-secondary text-on-secondary font-bold rounded-lg hover:opacity-90 transition-all active:scale-95 shadow-lg">Propose a Partnership</button>
+<button class="px-10 py-4 border border-on-primary text-on-primary font-bold rounded-lg hover:bg-white/10 transition-all active:scale-95">Download Portfolio</button>
+</div>
+</div>
+</div>
+</section>
+</main>
+
+<!-- Micro-interaction Script -->
+<!-- Footer -->
+<footer class="full-width py-xl bg-white border-t border-outline-variant">
+<div class="max-w-[1280px] mx-auto px-6 md:px-margin-desktop grid grid-cols-1 md:grid-cols-4 gap-gutter text-black">
+<!-- Branding & About -->
+<div class="col-span-1 md:col-span-1">
+<img alt="Force Group Logo" class="h-40 w-auto object-contain mb-6" src="logo.png"/>
+<p class="font-body-md text-black mb-6">Strategic development and community transformation, anchored in South Australia.</p>
+</div>
+<!-- Strategy Column -->
+<div>
+<h5 class="text-black font-bold mb-6 font-label-caps text-label-caps uppercase tracking-wider">Strategy</h5>
+<ul class="space-y-4">
+<li><a class="font-body-sm text-black hover:text-primary transition-colors" href="strategic-development.html">Strategic Development</a></li>
+<li><a class="font-body-sm text-black hover:text-primary transition-colors" href="operational-improvement.html">Operational Improvement</a></li>
+<li><a class="font-body-sm text-black hover:text-primary transition-colors" href="capability-building.html">Capability Building</a></li>
+</ul>
+</div>
+<!-- Impact Column -->
+<div>
+<h5 class="text-black font-bold mb-6 font-label-caps text-label-caps uppercase tracking-wider">Impact</h5>
+<ul class="space-y-4">
+<li><a class="font-body-sm text-black hover:text-primary transition-colors" href="community-impact.html">Community Impact</a></li>
+<li><a class="font-body-sm text-black hover:text-primary transition-colors" href="philanthropy.html">Philanthropy</a></li>
+<li><a class="font-body-sm text-black hover:text-primary transition-colors" href="strategic-partnerships.html">Strategic Partnerships</a></li>
+</ul>
+</div>
+<!-- Company Column -->
+<div>
+<h5 class="text-black font-bold mb-6 font-label-caps text-label-caps uppercase tracking-wider">Company</h5>
+<ul class="space-y-4 mb-8">
+<li><a class="font-body-sm text-black hover:text-primary transition-colors" href="privacy-policy.html">Privacy Policy</a></li>
+<li><a class="font-body-sm text-black hover:text-primary transition-colors" href="terms-of-service.html">Terms of Service</a></li>
+</ul>
+<div class="text-black font-label-caps text-[11px]">
+    © 2024 Force Group SA &amp; Force Aid Inc. All rights reserved.
+</div>
+</div>
+</div>
+</footer>
+
+<script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const cards = document.querySelectorAll('.project-card-hover');
+            
+            const observerOptions = {
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            };
+
+            const revealObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('opacity-100', 'translate-y-0');
+                        entry.target.classList.remove('opacity-0', 'translate-y-10');
+                        revealObserver.unobserve(entry.target);
+                    }
+                });
+            }, observerOptions);
+
+            cards.forEach(card => {
+                card.classList.add('opacity-0', 'translate-y-10', 'transition-all', 'duration-700');
+                revealObserver.observe(card);
+            });
+        });
+    </script>
+
+    <script>
+        // Simple scroll interaction for Header
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('header');
+            if (!header) return;
+            if (window.scrollY > 50) {
+                header.classList.add('glass-nav');
+                header.classList.remove('bg-surface-container-lowest');
+                header.classList.add('shadow-md');
+            } else {
+                header.classList.remove('glass-nav');
+                header.classList.add('bg-surface-container-lowest');
+                header.classList.remove('shadow-md');
+            }
+        });
+    </script>
+</body></html>

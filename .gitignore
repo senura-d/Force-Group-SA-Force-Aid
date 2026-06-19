@@ -1,0 +1,11 @@
+# Dependencies
+node_modules/
+force-group-ui/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.log
+
+# Source images (working files)
+WhatsApp Image *.jpeg
