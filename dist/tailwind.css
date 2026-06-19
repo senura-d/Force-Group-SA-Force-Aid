@@ -1348,6 +1348,10 @@ input:where([type='file']):focus {
   justify-content: space-between;
 }
 
+.gap-1 {
+  gap: 0.25rem;
+}
+
 .gap-10 {
   gap: 2.5rem;
 }
@@ -2312,6 +2316,10 @@ input:where([type='file']):focus {
   color: rgb(255 255 255 / 0.8);
 }
 
+.underline {
+  text-decoration-line: underline;
+}
+
 .antialiased {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -2763,6 +2771,10 @@ input:where([type='file']):focus {
 }
 
 @media (min-width: 640px) {
+  .sm\:block {
+    display: block;
+  }
+
   .sm\:w-auto {
     width: auto;
   }

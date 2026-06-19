@@ -4,6 +4,15 @@ module.exports = {
   darkMode: "class",
   theme: {
     extend: {
+      transitionProperty: {
+        colors: 'color, background-color, border-color, text-decoration-color, fill, stroke',
+        transform: 'transform',
+        all: 'all',
+        DEFAULT: 'color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter',
+        none: 'none',
+        opacity: 'opacity',
+        shadow: 'box-shadow',
+      },
       colors: {
       "on-primary-fixed": "#00201e",
       "surface-container": "#eeeeee",
